@@ -29,7 +29,7 @@ local function head(msg)   set(C.accent)  print("\n  "..msg) end
 
 -- ── GitHub raw base URL ────────────────────────────────────────────────────────
 -- EDIT THIS to your actual repository:
-local GITHUB_BASE = "https://raw.githubusercontent.com/yourusername/novos/main"
+local GITHUB_BASE = "https://raw.githubusercontent.com/2reneku/novos/refs/heads/main"
 
 local FILES = {
   { src = "/init.lua",          dst = "/novos/init.lua"          },
